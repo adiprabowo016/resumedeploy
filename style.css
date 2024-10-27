@@ -19,7 +19,7 @@ h1 {
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
-    margin-inline-start: 0px;
+    margin-inline-start: 8px;
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
@@ -43,14 +43,14 @@ ul.navbar {
     position: sticky;
     top: 0;
     list-style: none;
-    padding: 0;
+    padding: 20;
     margin: 0;
     text-align: center;
     background-color: black;
 }
 .navbar > li {
     display: inline-block;
-    margin: auto;
+    margin-right: 1;
     color: white;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -72,17 +72,21 @@ li {
 }
 .sectionintroduction {
     text-align: center;
+    display: inline-block;
+    margin-top: 5em;
 }
 .sectionintroduction1 {
     
-        display: inline-block;
-        margin-top: 5em;
+    display: inline-block;
+    margin-top: 5em;
+    text-align: center;
 }
 .sectionintroduction2 {
     display: inline-block;
     margin-top: 5em;
+    text-align: center;
 }
-.kontenperkenalan,.kontenperkenalan2 {
+.kontenperkenalan {
     font-size: 1.2em;
     width: 80%;
     max-width: 24em;
@@ -90,6 +94,13 @@ li {
     text-align: justify;
 }
 .kontenperkenalan1 {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+.kontenperkenalan2{
     font-size: 1.2em;
     width: 80%;
     max-width: 24em;
@@ -116,17 +127,79 @@ p {
 }
 
 .container {
-    width: 100%;
+    width:100%;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    display: inline-flex ;
 }
 
 .card {
  
         max-width: 300px;
         display: inline-block;
-        width: 90%;
+        width: 100%;
         vertical-align: middle;
-        margin: 10 10 auto;
-        margin-bottom: 2em;
+        margin: 10 10 ;
+        margin: 2em 2em 4em 8em;
+}
+.form {
+    display: inline-block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.formberkabar {
+    text-align: left;
+    width: 100%;
+    margin-left: 10;
+}
+.contactinfo {
+    text-align: center;
+    width: 30%;
+}
+
+.contactme {
+    display: inline-block;
+
+}
+#exampleFormControlInput1{
+    width: 30%;
+    text-align: left;
+    display: block;
+    margin: 0 ;
+}
+#exampleFormControlTextarea1{
+    width: 30%;
+    text-align: left;
+    display: block;
+    margin: 0 ;
+}
+.footer{
+    text-align: left;
+    margin-left: 5;
+}
+
+/*halaman portfolio*/
+.landingportfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    column-gap: 16px;
+}
+.landingwebdev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    column-gap: 16px;
+}
+.landingmodeling {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    column-gap: 16px;
+}
+section{
+    padding: 16px 128px;
 }
